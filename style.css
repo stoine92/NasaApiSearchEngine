@@ -1,0 +1,76 @@
+* {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: #000;
+}
+
+main {
+  background: #000;
+  background: url("nasa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+form {
+  background: #000;
+  padding: 20px;
+}
+
+input {
+  width: 20%;
+  padding: 6px;
+}
+
+h1 {
+  color: #f8f8ff;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.label {
+  color: #f8f8ff;
+  display: block;
+}
+
+.submit {
+  border: 2px solid #f8f8ff;
+  background: transparent;
+  background-size: cover;
+  color: #f8f8ff;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 1px;
+  max-width: 94px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+}
+
+.gallery img {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px;
+}
+
+.gallery p {
+  background: white;
+  width: 20%;
+  margin: 20px;
+  padding: 20px;
+}
