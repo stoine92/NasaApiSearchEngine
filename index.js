@@ -5,9 +5,7 @@ function myFunction(e) {
   const inputForm = document.getElementById("submit-form");
   let imageSearch = inputForm.elements["image-search"].value;
   const imgDiv = document.getElementById("images");
-  console.log(inputForm);
-  console.log(imageSearch);
-  console.log(imgDiv);
+ 
   fetch(`${URL}${imageSearch}`)
     .then((response) => response.json())
     .then((data) => {
