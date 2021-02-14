@@ -13,6 +13,7 @@ function myFunction(e) {
       let collection = data.collection.items.filter(
         (item) => item.data[0].media_type === "image"
       );
+
       imgDiv.innerHTML = "";
       for (let i = 0; i < 9; i++) {
         const item = collection[i];
@@ -23,7 +24,6 @@ function myFunction(e) {
         const descriptionElement = document.createElement("p");
 
         imgElement.src = image;
-        imgElement.className = "test";
         descriptionElement.textContent = description;
         imgDiv.appendChild(imgElement);
         imgDiv.appendChild(descriptionElement);
